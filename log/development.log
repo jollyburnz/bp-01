@@ -1,0 +1,393 @@
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (108.1ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36mSQL (0.9ms)[0m  [1mSHOW KEYS FROM `schema_migrations`[0m
+  [1m[35mSQL (203.2ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateComplaints (20120325151720)
+  [1m[35mSQL (82.3ms)[0m  CREATE TABLE `complaints` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `bin` varchar(255), `latest` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120325151720')[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.7ms)[0m  [1mdescribe `complaints`[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW KEYS FROM `complaints`
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mComplaint Load (0.2ms)[0m  SELECT `complaints`.* FROM `complaints` WHERE `complaints`.`id` = 1 LIMIT 1
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.3ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateComplaints (20120325151720)
+  [1m[35mSQL (0.9ms)[0m  DROP TABLE `complaints`
+  [1m[36mAREL (1.0ms)[0m  [1mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20120325151720'[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.3ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mSQL (0.1ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+Migrating to CreateComplaints (20120325151720)
+  [1m[35mSQL (73.3ms)[0m  CREATE TABLE `complaints` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `bin` varchar(255), `latest` varchar(255), `date` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120325151720')[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35mSQL (0.3ms)[0m  SHOW TABLES
+  [1m[36mSQL (1.2ms)[0m  [1mdescribe `complaints`[0m
+  [1m[35mSQL (0.2ms)[0m  SHOW KEYS FROM `complaints`
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.3ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.3ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.3ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.3ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[35mSQL (32.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAREL (16.9ms)[0m  UPDATE `complaints` SET `date` = '03/23/2001', `updated_at` = '2012-03-25 16:27:03' WHERE `complaints`.`id` = 1
+  [1m[36mSQL (15.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.3ms)[0m  [1mUPDATE `complaints` SET `date` = '12/05/2007', `updated_at` = '2012-03-25 16:27:04' WHERE `complaints`.`id` = 2[0m
+  [1m[35mSQL (0.5ms)[0m  COMMIT
+  [1m[36mComplaint Load (0.3ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE `complaints` SET `latest` = '4124220', `updated_at` = '2012-03-25 16:45:51' WHERE `complaints`.`id` = 1
+  [1m[36mSQL (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `complaints` SET `latest` = '4332598', `updated_at` = '2012-03-25 16:45:52' WHERE `complaints`.`id` = 2[0m
+  [1m[35mSQL (0.6ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  SHOW TABLES
+  [1m[36mComplaint Load (0.4ms)[0m  [1mSELECT `complaints`.* FROM `complaints` WHERE `complaints`.`id` = 1 LIMIT 1[0m
+  [1m[35mComplaint Load (0.5ms)[0m  SELECT `complaints`.* FROM `complaints` WHERE `complaints`.`id` = 1 LIMIT 1
+  [1m[36mComplaint Load (0.5ms)[0m  [1mSELECT `complaints`.* FROM `complaints` WHERE `complaints`.`id` = 1 LIMIT 1[0m
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE `complaints` SET `latest` = '4332598', `updated_at` = '2012-03-25 17:01:23' WHERE `complaints`.`id` = 2
+  [1m[36mSQL (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[36mComplaint Load (0.3ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.3ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE `complaints` SET `latest` = '4124220', `updated_at` = '2012-03-25 18:05:19' WHERE `complaints`.`id` = 1
+  [1m[36mSQL (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mCOMMIT[0m
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp/app/mailers/notification.rb:1)
+Rendered notification/new_complaint.html.erb (13.4ms)
+
+Sent mail to think.jackson@gmail.com (83ms)
+Date: Sun, 25 Mar 2012 14:05:20 -0400
+From: think.jackson@gmail.com
+To: think.jackson@gmail.com
+Message-ID: <4f6f5e609836d_87a380443948836c0@Jackson-Lins-MacBook-Pro.local.mail>
+Subject: [Building Protectors] New Complaint
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>You have a new complaint!</h1>
+    <p>You have a new complaint on your property.  Please contact us to get this resolved as soon as possible.</p>
+  </body>
+</html>
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE `complaints` SET `latest` = '4332598', `updated_at` = '2012-03-25 18:12:37' WHERE `complaints`.`id` = 2
+  [1m[36mSQL (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mCOMMIT[0m
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp/app/mailers/notification.rb:1)
+Rendered notification/new_complaint.html.erb (0.3ms)
+
+Sent mail to jollyburnz@gmail.com (33ms)
+Date: Sun, 25 Mar 2012 14:12:37 -0400
+From: think.jackson@gmail.com
+To: jollyburnz@gmail.com
+Message-ID: <4f6f6015f2ace_88948044394888840@Jackson-Lins-MacBook-Pro.local.mail>
+Subject: [Building Protectors] New Complaint
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>You have a new complaint!</h1>
+    <p>You have a new complaint on your property.  Please contact us to get this resolved as soon as possible.</p>
+  </body>
+</html>
+  [1m[35mSQL (98.1ms)[0m  ROLLBACK
+  [1m[36mComplaint Load (16.8ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAREL (0.5ms)[0m  UPDATE `complaints` SET `latest` = '4332598', `updated_at` = '2012-03-25 18:27:29' WHERE `complaints`.`id` = 2
+  [1m[36mSQL (16.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mCOMMIT[0m
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp/app/mailers/notification.rb:1)
+Rendered notification/new_complaint.html.erb (0.5ms)
+
+Sent mail to jollyburnz@gmail.com (649ms)
+Date: Sun, 25 Mar 2012 14:27:30 -0400
+From: think.jackson@gmail.com
+To: jollyburnz@gmail.com
+Message-ID: <4f6f63926f640_8a3e8044394885742@Jackson-Lins-MacBook-Pro.local.mail>
+Subject: [Building Protectors] New Complaint
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>You have a new complaint!</h1>
+    <p>You have a new complaint on your property.  Please contact us to get this resolved as soon as possible.</p>
+  </body>
+</html>
+  [1m[36mComplaint Load (0.3ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (94.2ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAREL (14.9ms)[0m  UPDATE `complaints` SET `latest` = '4332598', `updated_at` = '2012-03-25 19:39:40' WHERE `complaints`.`id` = 2
+  [1m[36mSQL (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.5ms)[0m  [1mUPDATE `complaints` SET `date` = '12/05/2007', `updated_at` = '2012-03-25 19:39:40' WHERE `complaints`.`id` = 2[0m
+  [1m[35mSQL (0.4ms)[0m  COMMIT
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp/app/mailers/notification.rb:1)
+Rendered notification/new_complaint.html.erb (0.4ms)
+
+Sent mail to jollyburnz@gmail.com (210ms)
+Date: Sun, 25 Mar 2012 15:39:41 -0400
+From: think.jackson@gmail.com
+To: jollyburnz@gmail.com
+Message-ID: <4f6f747d35eb0_921680443948263f3@Jackson-Lins-MacBook-Pro.local.mail>
+Subject: [Building Protectors] New Complaint
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>You have a new complaint!</h1>
+    <p>Click the link to view your new complaint : &lt;a href=&quot;OverviewForComplaintServlet?requestid=0&amp;amp;vlcompdetlkey=0000966199&quot;&gt;4332598&lt;/a&gt;</p>
+    <p>You have a new complaint on your property.  Please contact us to get this resolved as soon as possible.</p>
+  </body>
+</html>
+  [1m[36mComplaint Load (0.3ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (19.2ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAREL (0.8ms)[0m  UPDATE `complaints` SET `latest` = '4332598', `updated_at` = '2012-03-25 19:43:18' WHERE `complaints`.`id` = 2
+  [1m[36mSQL (11.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mAREL (0.4ms)[0m  [1mUPDATE `complaints` SET `date` = '12/05/2007', `updated_at` = '2012-03-25 19:43:18' WHERE `complaints`.`id` = 2[0m
+  [1m[35mSQL (0.3ms)[0m  COMMIT
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp/app/mailers/notification.rb:1)
+Rendered notification/new_complaint.html.erb (0.4ms)
+
+Sent mail to jollyburnz@gmail.com (158ms)
+Date: Sun, 25 Mar 2012 15:43:19 -0400
+From: think.jackson@gmail.com
+To: jollyburnz@gmail.com
+Message-ID: <4f6f755751d24_92c28044394879cd@Jackson-Lins-MacBook-Pro.local.mail>
+Subject: [Building Protectors] New Complaint
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>You have a new complaint!</h1>
+    <p>Click the link to view your new complaint : &lt;a href=&quot;OverviewForComplaintServlet?requestid=0&amp;amp;vlcompdetlkey=0000966199&quot;&gt;4332598&lt;/a&gt;</p>
+    <p>You have a new complaint on your property.  Please contact us to get this resolved as soon as possible.</p>
+  </body>
+</html>
+  [1m[36mComplaint Load (0.3ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE `complaints` SET `latest` = '4332598', `updated_at` = '2012-03-25 21:26:08' WHERE `complaints`.`id` = 2
+  [1m[36mSQL (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mCOMMIT[0m
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp/app/mailers/notification.rb:1)
+Rendered notification/new_complaint.html.erb (0.5ms)
+
+Sent mail to jollyburnz@gmail.com (106ms)
+Date: Sun, 25 Mar 2012 17:26:09 -0400
+From: think.jackson@gmail.com
+To: jollyburnz@gmail.com
+Message-ID: <4f6f8d7174292_9e0b80443948254dc@Jackson-Lins-MacBook-Pro.local.mail>
+Subject: [Building Protectors] New Complaint
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>You have a new complaint!</h1>
+    <p>Click the link to view your new complaint : <a href="http://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?requestid=0&amp;vlcompdetlkey=0000966199">http://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?requestid=0&amp;vlcompdetlkey=0000966199</a></p>
+    <p>You have a new complaint on your property.  Please contact us to get this resolved as soon as possible.</p>
+  </body>
+</html>
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE `complaints` SET `latest` = '4332598', `updated_at` = '2012-03-25 21:43:20' WHERE `complaints`.`id` = 2
+  [1m[36mSQL (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mCOMMIT[0m
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp/app/mailers/notification.rb:1)
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE `complaints` SET `latest` = '4332598', `updated_at` = '2012-03-25 21:45:39' WHERE `complaints`.`id` = 2
+  [1m[36mSQL (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mCOMMIT[0m
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp/app/mailers/notification.rb:1)
+Rendered notification/new_complaint.html.erb (0.5ms)
+
+Sent mail to jollyburnz@gmail.com (45ms)
+Date: Sun, 25 Mar 2012 17:45:40 -0400
+From: think.jackson@gmail.com
+To: jollyburnz@gmail.com
+Message-ID: <4f6f920414fc4_a02c804439481668@Jackson-Lins-MacBook-Pro.local.mail>
+Subject: [Building Protectors] New Complaint
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>BIN#4056431 have a new complaint!</h1>
+    <p>Click the link to view your new complaint : <a href="http://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?requestid=0&amp;vlcompdetlkey=0000966199">http://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?requestid=0&amp;vlcompdetlkey=0000966199</a></p>
+    <p>You have a new complaint on your property.  Please contact us to get this resolved as soon as possible.</p>
+  </body>
+</html>
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAREL (0.3ms)[0m  UPDATE `complaints` SET `latest` = '4332598', `updated_at` = '2012-03-25 21:47:17' WHERE `complaints`.`id` = 2
+  [1m[36mSQL (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mCOMMIT[0m
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp/app/mailers/notification.rb:1)
+Rendered notification/new_complaint.html.erb (0.5ms)
+
+Sent mail to jollyburnz@gmail.com (47ms)
+Date: Sun, 25 Mar 2012 17:47:18 -0400
+From: think.jackson@gmail.com
+To: jollyburnz@gmail.com
+Message-ID: <4f6f926685018_a06580443948716e5@Jackson-Lins-MacBook-Pro.local.mail>
+Subject: [Building Protectors] New Complaint for BIN#4056431
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>BIN#4056431 have a new complaint!</h1>
+    <p>Click the link to view your new complaint : <a href="http://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?requestid=0&amp;vlcompdetlkey=0000966199">http://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?requestid=0&amp;vlcompdetlkey=0000966199</a></p>
+    <p>You have a new complaint on your property.  Please contact us to get this resolved as soon as possible.</p>
+  </body>
+</html>
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp/config/initializers/mailer.rb:1)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp/config/initializers/mailer.rb:1)
+  [1m[36mComplaint Load (0.3ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAREL (0.4ms)[0m  UPDATE `complaints` SET `latest` = '4332598', `updated_at` = '2012-03-25 22:25:45' WHERE `complaints`.`id` = 2
+  [1m[36mSQL (14.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mCOMMIT[0m
+Rendered notification/new_complaint.html.erb (0.5ms)
+
+Sent mail to jollyburnz@gmail.com (2594ms)
+Date: Sun, 25 Mar 2012 18:25:45 -0400
+From: buildingprotectors@gmail.com
+To: jollyburnz@gmail.com
+Message-ID: <4f6f9b69c3889_a4a080443948395aa@Jackson-Lins-MacBook-Pro.local.mail>
+Subject: [Building Protectors] New Complaint for BIN#4056431
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>BIN#4056431 have a new complaint!</h1>
+    <p>Click the link to view your new complaint : <a href="http://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?requestid=0&amp;vlcompdetlkey=0000966199">http://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?requestid=0&amp;vlcompdetlkey=0000966199</a></p>
+    <p>You have a new complaint on your property.  Please contact us to get this resolved as soon as possible.</p>
+  </body>
+</html>
