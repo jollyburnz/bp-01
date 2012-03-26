@@ -7,6 +7,7 @@ gem 'rails', '3.0.9'
 
 gem 'mysql2', '~> 0.2.6'
 gem 'nokogiri'
+gem 'rufus-scheduler'
 
 # Use unicorn as the web server
 # gem 'unicorn'

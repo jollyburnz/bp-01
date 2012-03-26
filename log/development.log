@@ -391,3 +391,138 @@ Content-Transfer-Encoding: 7bit
     <p>You have a new complaint on your property.  Please contact us to get this resolved as soon as possible.</p>
   </body>
 </html>
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+  [1m[36mComplaint Load (0.3ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (40.5ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAREL (0.5ms)[0m  UPDATE `complaints` SET `latest` = '4332598', `updated_at` = '2012-03-25 23:56:38' WHERE `complaints`.`id` = 2
+  [1m[36mSQL (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mCOMMIT[0m
+Rendered notification/new_complaint.html.erb (0.5ms)
+
+Sent mail to jollyburnz@gmail.com (1956ms)
+Date: Sun, 25 Mar 2012 19:56:38 -0400
+From: buildingprotectors@gmail.com
+To: jollyburnz@gmail.com
+Message-ID: <4f6fb0b670be0_af6e804439485673c@Jackson-Lins-MacBook-Pro.local.mail>
+Subject: [Building Protectors] New Complaint for BIN#4056431
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>BIN#4056431 have a new complaint!</h1>
+    <p>You have a new complaint on your property. </p>
+    <p>Click the link to view your new complaint :<br/>
+    <a href="http://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?requestid=0&amp;vlcompdetlkey=0000966199">http://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?requestid=0&amp;vlcompdetlkey=0000966199</a></p>
+    <p>Please contact us to get this resolved as soon as possible.</p>
+  </body>
+</html>
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+DEPRECATION WARNING: RAILS_ROOT is deprecated. Please use ::Rails.root.to_s. (called from join at /Users/Action/Sites/bp_01/config/initializers/scheduler.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+DEPRECATION WARNING: RAILS_ROOT is deprecated. Please use ::Rails.root.to_s. (called from join at /Users/Action/Sites/bp_01/config/initializers/scheduler.rb:5)
+DEPRECATION WARNING: RAILS_ENV is deprecated. Please use ::Rails.env. (called from []= at /Users/Action/Sites/bp_01/config/initializers/scheduler.rb:7)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+  [1m[36mComplaint Load (0.3ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+4223529 has no new complaints.
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+  [1m[36mComplaint Load (0.3ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+4223529 has no new complaints.
+#######################################################################
+4056431 has no new complaints.
+#######################################################################
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+4223529 has no new complaints.
+#######################################################################
+4056431 has no new complaints.
+#######################################################################
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+4223529 has no new complaints.
+#######################################################################
+4056431 has no new complaints.
+#######################################################################
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+4223529 has no new complaints.
+#######################################################################
+4056431 has no new complaints.
+#######################################################################
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mSHOW TABLES[0m
+  [1m[35mAREL (25.4ms)[0m  UPDATE `complaints` SET `latest` = '4124220', `updated_at` = '2012-03-26 02:58:13' WHERE `complaints`.`id` = 1
+  [1m[36mSQL (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mCOMMIT[0m
+Rendered notification/new_complaint.html.erb (0.8ms)
+
+Sent mail to jollyburnz@gmail.com (2314ms)
+Date: Sun, 25 Mar 2012 22:58:13 -0400
+From: buildingprotectors@gmail.com
+To: jollyburnz@gmail.com
+Message-ID: <4f6fdb4596b9a_c278804439485155a@Jackson-Lins-MacBook-Pro.local.mail>
+Subject: [Building Protectors] New Complaint for BIN#4223529
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>BIN#4223529 have a new complaint!</h1>
+    <p>You have a new complaint on your property. </p>
+    <p>Click the link to view your new complaint :<br/>
+    <a href="http://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?requestid=0&amp;vlcompdetlkey=0000439598">http://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?requestid=0&amp;vlcompdetlkey=0000439598</a></p>
+    <p>Please contact us to get this resolved as soon as possible.</p>
+  </body>
+</html>
+4223529 has been updated and an notification email has been sent.
+#######################################################################
+4056431 has no new complaints.
+#######################################################################
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+4223529 has no new complaints.
+#######################################################################
+4056431 has no new complaints.
+#######################################################################
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+  [1m[36mComplaint Load (0.2ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+4223529 has no new complaints.
+#######################################################################
+4056431 has no new complaints.
+#######################################################################
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from <top (required)> at /Users/Action/Sites/bp_01/config/initializers/mailer.rb:1)
+  [1m[36mComplaint Load (0.3ms)[0m  [1mSELECT `complaints`.* FROM `complaints`[0m
+4223529 has no new complaints.
+#######################################################################
+4056431 has no new complaints.
+#######################################################################

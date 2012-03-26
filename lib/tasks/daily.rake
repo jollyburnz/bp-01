@@ -18,13 +18,16 @@ task :daily_task => :environment do
 			t.update_attributes(:latest => latest_complaint)
 			t.update_attributes(:date => latest_date)
 			Notification.new_complaint(latest_complaint_raw, t.bin).deliver
+		    Rails.logger.debug "#{t.bin} has been updated and an notification email has been sent."
 			puts "#{t.bin} has been updated and an notification email has been sent."
 		else
+			Rails.logger.debug "#{t.bin} has no new complaints."
 			puts "#{t.bin} has no new complaints."
 		end
 
 		#puts latest_complaint
 		#puts latest_date
+		Rails.logger.debug "#######################################################################"
 		puts "...."
 	end
 
